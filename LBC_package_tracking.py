@@ -25,9 +25,9 @@ def sendemail(sender_email, password, message):
 	server.quit()
 
 #Set Chrome as webdriver
-driver = webdriver.Chrome(executable_path='C:/Users/JBeredo2/OneDrive - Analog Devices, Inc/Documents/Python/chromedriver')
+driver = webdriver.Chrome(executable_path='  ') #place your webdriver exe path here
 #Go to URL
-driver.get("https://www.lbcexpress.com/track/")
+driver.get("https://www.lbcexpress.com/track/") # LBC tracking page
 
 #Find text box to input tracking number
 inputTrackingNumber = driver.find_element_by_id("inputTrackingSearchForm")
